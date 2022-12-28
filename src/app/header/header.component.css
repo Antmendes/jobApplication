@@ -1,0 +1,25 @@
+.container{
+    margin-bottom: 3.5rem;
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2.9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(212, 218, 180);
+}
+
+@media only screen and (min-width: 767px){
+    .container h1{
+        padding: .5rem;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .container h1{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+}
