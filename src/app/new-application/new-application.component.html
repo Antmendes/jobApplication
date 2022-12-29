@@ -3,10 +3,10 @@
     <h2 class="title">Novo Cadastro</h2>
  
     <div class="content">
-        <input type="text" placeholder="Plataforma">
-        <input type="text" placeholder="Empresa">
-        <input type="text" placeholder="Cargo">
-        <input type="date">
-        <button>Salvar</button>
+        <input type="text" placeholder="Plataforma" #platInput>
+        <input type="text" placeholder="Empresa" #empInput>
+        <input type="text" placeholder="Cargo" #cargoInput>
+        <input type="date" placeholder="Data" #dataInput>
+        <button (click)="saveApplication(model)">Salvar</button>
     </div>
 
