@@ -1,12 +1,5 @@
 
-h2{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 1.7rem;
-    color: #fff;
-    margin-bottom: 0;
-    
-}
+
 
 .content{
     display: flex;
@@ -44,6 +37,12 @@ h2{
      font-family: 'Open Sans', sans-serif;
      font-weight: 700;
 }
+
+.content button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #859199 inset, 0 0 10px 4px #859199;
+}
+
 
 @media only screen and (min-width: 767px){
     .content{

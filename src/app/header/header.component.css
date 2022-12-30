@@ -11,6 +11,8 @@
     color: rgb(212, 218, 180);
 }
 
+
+
 @media only screen and (min-width: 767px){
     .container h1{
         padding: .5rem;

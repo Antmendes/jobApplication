@@ -1,0 +1,100 @@
+
+.container{
+    
+    margin: 1.5rem;
+    height: auto;
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+
+.container .atributos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
+   
+}
+
+.container .atributos p{
+    font-size: 1rem;
+    color: rgb(212, 218, 180);
+    font-family: 'Open Sans', sans-serif;
+    font-style: oblique;
+}
+
+.container .content{
+    margin-bottom: .5rem;
+}
+
+.container .content ul{
+    display: flex;
+    padding-left: .2rem;
+    justify-content: space-between;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    border: 1px solid black;
+    height: 28px;
+    align-items: center;
+    background-color: rgb(235, 227, 227);
+}
+
+.container .content ul li{
+    list-style: none;
+    width: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #454141;
+    
+    
+    
+}
+.date{
+    width: 50px;
+}
+
+.container .content ul input{
+    margin-right: .1rem;
+    justify-content: flex-end;
+    height: 18px;
+    width: 18px;
+    
+}
+
+.container .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.container .btn button{
+    height: 40px;
+    width: 15%;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(212, 218, 180);
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    
+}
+
+.container .btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #859199 inset, 0 0 10px 4px #859199;
+}
+
+@media only screen and (min-width: 767px){
+    .container{
+        margin: 1.5rem 5rem 5rem 5rem;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .container{
+        margin: 1.5rem 15rem 15rem 15rem;
+    }
+
+}

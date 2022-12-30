@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-new-application',
@@ -16,7 +17,7 @@ export class NewApplicationComponent implements OnInit {
   }
 
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.persistData()
@@ -43,12 +44,15 @@ export class NewApplicationComponent implements OnInit {
     
     localStorage.setItem('list', JSON.stringify(this.application))
     this.persistData()
+    alert('Cadastro realizado')
+    this.router.navigate(['home'])
   }
 
   persistData(): void{
     let storage = localStorage.getItem('list')
     let arr = JSON.parse(storage || '[]')
     this.application = arr
+    
   }
 
 }

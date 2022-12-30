@@ -1,9 +1,24 @@
+<h2 class="title">Minhas Candidaturas</h2>
+
 <div class="container">
-    <h1 class="title">Minhas Candidaturas</h1>
+    
+    <div class="atributos">
+      <p>Data:</p>
+      <p>Plataforma:</p>
+      <p>Empresa:</p>
+      <p>Cargo:</p>
+      <p>excluir:</p>
+    </div>
     <div class="content">
-       <ul>
-          <li><p>1</p><p>2</p><p>3</p><p>4</p></li>
+       <ul *ngFor="let item of arr let indexOfelement=index">
+          <li class="date">{{item.data | date: 'dd/MM'}} -</li>
+          <li>{{item.plataforma}} -</li>
+          <li>{{item.empresa}} -</li>
+          <li>{{item.cargo}} -</li>
+          <input type="checkbox" (change)="deleteItem(indexOfelement)">
        </ul>
-       <button id="new">Nova Candidatura</button>
-    </div>   
+    </div> 
+    <div class="btn">
+       <button id="new" routerLink="/form">New</button> 
+    </div> 
 </div>

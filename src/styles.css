@@ -6,3 +6,12 @@ body{
     height: 100vh;
     background: linear-gradient(220.55deg, #FF8570 0%, #418CB7 100%);
 }
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 0;
+    
+}

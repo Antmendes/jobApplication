@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NewApplicationComponent } from './new-application/new-application.component';
 import { MyApplicationsComponent } from './my-applications/my-applications.component';
 import { HeaderComponent } from './header/header.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,10 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
