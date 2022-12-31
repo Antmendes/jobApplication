@@ -12,9 +12,9 @@
     <div class="content">
        <ul *ngFor="let item of arr let indexOfelement=index">
           <li class="date">{{item.data | date: 'dd/MM'}} -</li>
-          <li>{{item.plataforma}} -</li>
-          <li>{{item.empresa}} -</li>
-          <li>{{item.cargo}} -</li>
+          <li>{{item.plataforma}} </li>
+          <li>{{item.empresa}} </li>
+          <li>{{item.cargo}} </li>
           <input type="checkbox" (change)="deleteItem(indexOfelement)">
        </ul>
     </div> 

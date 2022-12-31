@@ -7,13 +7,15 @@ import { NewApplicationComponent } from './new-application/new-application.compo
 import { MyApplicationsComponent } from './my-applications/my-applications.component';
 import { HeaderComponent } from './header/header.component';
 import { CommonModule } from '@angular/common';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewApplicationComponent,
     MyApplicationsComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
