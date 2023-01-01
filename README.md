@@ -1,5 +1,5 @@
 # JobApplication
-<p>- ToDo desenvolvido para uso pessoal para controle das minhas candidaturas</p>
+<p>- ToDo desenvolvido para uso pessoal para controle das minhas candidaturas de empregos</p>
 <p>- Utilização do localStorage para armazenamento de dados</p>
 <p>- design responsivo</p>
 <h2>tecnologias utilizadas</h2>
